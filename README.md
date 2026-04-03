@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+I deployed and configured a web-based ticketing system by setting up IIS, PHP, and MySQL, and securing the application post-installation .<br />
 
 
 
@@ -11,11 +11,11 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Internet Information Services (IIS)
+- IIS, PHP, CGI. MySQL
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 11</b> (25H2)
 
 <h2>Ticket Lifecycle Stages</h2>
 
@@ -26,8 +26,10 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Lifecycle Stages</h2>
 
+</p>
+
 <p align="center">
-  <img src="images/installation-files.png" width="80%">
+  <img src="src="images/osticket-installed.png" alt="MySQL Setup">
 </p>
 
 <p align="center">

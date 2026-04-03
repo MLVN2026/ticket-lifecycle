@@ -33,7 +33,7 @@ I deployed and configured a web-based ticketing system by setting up IIS, PHP, a
 </p>
 
 <p align="center">
-  <img src="images/mysql-setup.png" width="80%">
+  <img src="images/installation-files.png" width="80%">
 </p>
 
 <p align="center">
@@ -46,7 +46,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-<p><img src="images/osticket-installed.png" width="80%">
+<p><img src="images/mysql-setup.png" width="80%">
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

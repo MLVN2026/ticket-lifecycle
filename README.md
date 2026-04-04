@@ -54,7 +54,7 @@ I deployed and configured a web-based ticketing system by setting up IIS, PHP, a
 
 </p>
 <p>
-Created and managed ticket lifecycle workflows, from intake to assignment, troubleshooting, and resolution. Configured Help topics and Ticket categories to streamline support opeerations and improve ticket routing efficiency. Documented the installation and configuration process with screenshots, showing hands-on technical competency. Demonstrated troubleshooting skills by testing ticket submission, assignment, and resolution steps. Applied IT support best practices including ticket documentation, communication, and knowledge base creation. Showcased end-to-end help desk operations in a strcutred, real world scenario that stimulates enterprise IT support.
+Created and managed ticket lifecycle workflows, from intake to assignment, troubleshooting, and resolution. Configured Help topics and Ticket categories to streamline support operations and improve ticket routing efficiency. Documented the installation and configuration process with screenshots, showing hands-on technical competency. Demonstrated troubleshooting skills by testing ticket submission, assignment, and resolution steps. Applied IT support best practices including ticket documentation, communication, and knowledge base creation. Showcased end-to-end help desk operations in a structured, real world scenario that stimulates enterprise IT support.
 </p>
 <br />
 

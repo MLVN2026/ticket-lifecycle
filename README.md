@@ -10,7 +10,7 @@ I deployed and configured a web-based ticketing system by setting up IIS, PHP, a
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remote Desktop Protocol (RDP)
 - Internet Information Services (IIS)
 - Hypertext Preprocessor (PHP)
 - Common Gateway interface (CGI)
@@ -20,12 +20,12 @@ I deployed and configured a web-based ticketing system by setting up IIS, PHP, a
 
 - Windows 11</b> (25H2)
 
-<h2>Ticket Lifecycle Stages</h2>
+<h2>Key Skills Demonstrated Stages</h2>
 
-- Intake
-- Assignment and Communication
-- Working the Issue
-- Resolution
+- Troubleshooting Methodology
+- IT Service Workflow Management
+- Customer Support & Communication
+- Documentation & Resolution Tracking
 
 <h2>Lifecycle Stages</h2>
 
@@ -61,7 +61,6 @@ Created and managed ticket lifecycle workflows, from intake to assignment, troub
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<p>Through this lab, I gained a deeper understanding of how IT support teams manage and resolve tickets in a structured environment. I also improved my ability to communicate technical issues clearly and follow a standardized troubleshooting process.
 </p>
 <br />

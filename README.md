@@ -32,11 +32,13 @@ I deployed and configured a web-based ticketing system by setting up IIS, PHP, a
 </p>
 
 <p align="center">
-  <img src="src="images/osticket-installed.png" alt="MySQL Setup">
-</p>
+   <img src="images/installation-files.png" width="80%">
 
+
+</p>
+ <img width="1899" height="1032" alt="image" src="https://github.com/user-attachments/assets/1a270a20-934b-4737-9e6c-96796975498f" />
 <p align="center">
-  <img src="images/installation-files.png" width="80%">
+ 
 </p>
 
 <p align="center">

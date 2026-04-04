@@ -11,7 +11,10 @@ I deployed and configured a web-based ticketing system by setting up IIS, PHP, a
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- IIS, PHP, CGI. MySQL
+- Internet Information Services (IIS)
+- Hypertext Preprocessor (PHP)
+- Common Gateway interface (CGI)
+- MySQL (Database Server)
 
 <h2>Operating Systems Used </h2>
 

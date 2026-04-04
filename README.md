@@ -22,10 +22,31 @@ I deployed and configured a web-based ticketing system by setting up IIS, PHP, a
 
 <h2>Key Skills Demonstrated Stages</h2>
 
-- Troubleshooting Methodology
-- IT Service Workflow Management
-- Customer Support & Communication
-- Documentation & Resolution Tracking
+- IT infrastructure setup (Azure VM, IIS)  
+- Software deployment and dependency management (PHP, MySQL, osTicket)  
+- Helpdesk workflow understanding  
+- Role-based access control and permissions  
+- SLA and ticket prioritization configuration  
+- Troubleshooting and system administration
+
+
+  # Step 1: Create Azure Windows 11 Pro VM
+
+1. Log in to Azure Portal.
+2. Navigate to **Virtual Machines > Create > Virtual Machine**.
+3. Configure:
+   - Name: `osticket-vm`
+   - Region: [Choose your region]
+   - Image: Windows 11Pro
+   - Size: 4 vCPUs
+   - Username: 
+   - Password: 
+4. Enable **RDP (Remote Desktop Protocol)** access.
+5. Complete VM creation.
+6. Connect using Remote Desktop.
+
+<img width="1910" height="924" alt="image" src="https://github.com/user-attachments/assets/47f19847-4972-4aee-b7eb-6a43b2f44b91" />
+
 
 <h2>Lifecycle Stages</h2>
 
@@ -33,6 +54,28 @@ I deployed and configured a web-based ticketing system by setting up IIS, PHP, a
 
 <p align="center">
    <img src="images/installation-files.png" width="80%">
+
+   # Step 2: IIS, PHP, and MySQL Setup
+
+## Install IIS with CGI
+1. Open Windows Features.
+2. Enable:
+   - Internet Information Services
+   - World Wide Web Services → Application Development Features → [X] CGI
+
+## Install Dependencies
+1. From `Lab-Files/`, install:
+   - `PHPManagerForIIS_V1.5.0.msi`
+   - `rewrite_amd64_en-US.msi`
+   - `VC_redist.x86.exe`
+   - `MySQL 5.5.62-win32.msi` (Typical Setup → Launch Configuration Wizard → Standard → root/root)
+2. Create directory: `C:\PHP`
+3. Unzip `php-7.3.8-nts-Win32-VC15-x86.zip` into `C:\PHP`.
+
+## Configure IIS for PHP
+1. Open IIS as Admin.
+2. Use PHP Manager → Register `C:\PHP\php-cgi.exe`.
+3. Reload IIS (Stop → Start).
 
 
 </p>
@@ -46,21 +89,73 @@ I deployed and configured a web-based ticketing system by setting up IIS, PHP, a
 </p>
 
 
-<p>Installed and configured osTicket on Windows 11 Pro with IIS and PHP for a fully functional ticketing system. Set Up MySQL database to store ticket data and user information, demonstrating backend integration skills. Deployed the lab in Microsft Azure VM's, simulating a real world IT infrastructure environment.
+<p>
+---
+
+
+# Step 3: Install osTicket
+
+1. Unzip `osTicket-v1.15.8.zip` → copy `upload` folder to `C:\inetpub\wwwroot`.
+2. Rename `upload` → `osTicket`.
+3. Reload IIS (Stop → Start).
+4. Open `http://localhost/osTicket` in browser.
+
+## Enable PHP Extensions
+- In IIS → osTicket → PHP Manager → Enable:
+  - php_imap.dll
+  - php_intl.dll
+  - php_opcache.dll
+
+## Configure osTicket
+1. Rename `ost-sampleconfig.php` → `ost-config.php`.
+2. Assign permissions:
+   - Disable inheritance → Remove All
+   - Add Everyone → Full Control
+3. Continue setup in browser:
+   - Name: Helpdesk
+   - Default email: receives tickets
+
+## Database Setup
+1. Install `HeidiSQL` from Lab-Files.
+2. Connect: root/root → create database `osTicket`.
+3. Continue installation in browser:
+   - MySQL Database: osTicket
+   - Username: root
+
+
+
+
 </p>
-<br />
 
 <p><img width="1896" height="1014" alt="image" src="https://github.com/user-attachments/assets/14558943-8ba5-4d78-90db-091414970a28" />
 
-</p>
-<p>
-Created and managed ticket lifecycle workflows, from intake to assignment, troubleshooting, and resolution. Configured Help topics and Ticket categories to streamline support operations and improve ticket routing efficiency. Documented the installation and configuration process with screenshots, showing hands-on technical competency. Demonstrated troubleshooting skills by testing ticket submission, assignment, and resolution steps. Applied IT support best practices including ticket documentation, communication, and knowledge base creation. Showcased end-to-end help desk operations in a structured, real world scenario that stimulates enterprise IT support.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>Through this lab, I gained a deeper understanding of how IT support teams manage and resolve tickets in a structured environment. I also improved my ability to communicate technical issues clearly and follow a standardized troubleshooting process.
+<p>Ticket Lifecycle – Role-Based Workflow
+   # Step 5: Ticketing Workflow Practice
+
+## Sample Tickets
+| Ticket | Description | Department | SLA |
+|--------|------------|------------|-----|
+| 1 | Entire mobile/online banking system is down | Online Banking | Sev-A (1h, 24/7) |
+| 2 | Accounting department needs Adobe upgrade | Support | Sev-B (4h, 24/7) |
+| 3 | CFO’s laptop won’t turn on | Support | Sev-B (4h, 24/7) |
+
+## Agent Workflow
+- Log in as John → observe ticket properties
+- Assign SLA, department
+- Resolve ticket or escalate
+- Observe permissions impact (Sev-A restricted)
+- Log in as Jane → manage escalated tickets
+
+## Takeaways
+- End-to-end ticket lifecycle
+- Role-based access control
+- SLA management
+- Email notifications for updates
+- Realistic IT helpdesk workflow
+
+
+
 </p>
 <br />

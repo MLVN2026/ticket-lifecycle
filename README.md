@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
+<h1>osTicket - IT-Helpdesk-Lab-Setup & Workflow</h1>
 I deployed and configured a web-based ticketing system by setting up IIS, PHP, and MySQL, and securing the application post-installation .<br />
 
 

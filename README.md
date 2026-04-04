@@ -46,8 +46,7 @@ I deployed and configured a web-based ticketing system by setting up IIS, PHP, a
 </p>
 
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<p>Installed and configured osTicket on Windows 11 Pro with IIS and PHP for a fully functional ticketing system. Set Up MySQL database to store ticket data and user information, demonstrating backend integration skills. Deployed the lab in Microsft Azure VM's, simulating a real world IT infrastructure environment.
 </p>
 <br />
 

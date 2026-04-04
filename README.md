@@ -42,7 +42,7 @@ I deployed and configured a web-based ticketing system by setting up IIS, PHP, a
 </p>
 
 <p align="center">
-  <img src="images/php-extensions.png" width="80%">
+  
 </p>
 
 
